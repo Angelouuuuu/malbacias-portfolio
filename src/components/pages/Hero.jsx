@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import styles from "./Hero.module.css";
 import heroImg from "../../assets/images/me.jpg"
@@ -49,7 +50,7 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi, I'm a <span className={styles.spanning}>{text}</span></h1>
                 <p className={styles.desc}>My name is Nec and I have a 2 years experience in web development. Reach out if you'd like to know more!</p>
-                <a className={styles.contact} href="mailto:angelounecole@gmail.com">Let's Connect!</a>
+                <Link className={styles.contact} to="/contact">Let's Connect!</Link>
                 
                 <div className={styles.techStack}>
                     <hr className={styles.line} />
