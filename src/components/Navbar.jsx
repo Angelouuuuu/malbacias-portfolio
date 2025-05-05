@@ -103,9 +103,15 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/contact" onClick={() => setMenuOpen(false)}>
-              Blog
-            </Link>
+          <a
+            href="https://malbacias-blog.netlify.app/blog"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMenuOpen(false)}
+          >
+            Blog
+          </a>
+
           </li>
         </ul>
       </div>

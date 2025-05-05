@@ -26,7 +26,7 @@ const About = () => {
   const stats = [
     { id: 1, label: "Years of Experience", value: "2 Years", icon: <FaCode />, path: "/experience" },
     { id: 2, label: "Projects Completed", value: "10 Projects", icon: <FaProjectDiagram />, path: "/projects" },
-    { id: 3, label: "Seminars Attended", value: "Blog +", icon: <FaChalkboardTeacher />, path: "/blog" },
+    { id: 3, label: "Seminars Attended", value: "Blog +", icon: <FaChalkboardTeacher />, path: "/https://lousblogg.netlify.app/blog" },
   ]
 
   const [isVisible, setIsVisible] = useState(false)
