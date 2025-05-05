@@ -104,7 +104,7 @@ export const Navbar = () => {
           </li>
           <li>
           <a
-            href="https://malbacias-blog.netlify.app/blog"
+            href="https://lousblogg.netlify.app/blog"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
